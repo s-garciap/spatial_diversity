@@ -15,7 +15,7 @@ It is based on Python and PostGIS.
   - `psycopg2`
   - `time`
   - `os`
-- `sgp_utils` available at: (this module mainly facilitates working with POSTGIS and SPATIALITE EXTENSION)
+- `sgp_utils` available at: https://github.com/s-garciap/sgp_utils/blob/main/sgp_utils.py (this module mainly facilitates working with POSTGIS and SPATIALITE EXTENSION)
 - Have PostgreSQL with the PostGIS extension installed on your computer
 
 ### Required files:
