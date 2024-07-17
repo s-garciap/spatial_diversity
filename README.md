@@ -1,10 +1,24 @@
 ## SPATIAL DIVERSITY
 
 Code for calculating the spatial diversity of our cities
-[https://pupc.unizar.es/diversidad](https://pupc.unizar.es/diversidad)
+
+WEB: [https://pupc.unizar.es/diversidad](https://pupc.unizar.es/diversidad)
+
+CODE: [https://github.com/s-garciap/spatial_diversity](https://github.com/s-garciap/spatial_diversity)
 
 The code uses open libraries for calculating diversity.  
 It is based on Python and PostGIS.
+
+### This code calculates the following spatial diversities:
+- diversity of age of buildings (continuous variable, standard deviation)
+- diversity of building quality (continuous variable, standard deviation)
+- diversity of dwelling size (discrete variable, Shanon index and Simpson index)
+- diversity of uses (discrete variable, Shanon index and Simpson index)
+- other diversities not included in the final version of our maps, but maybe useful in some contexts
+    - façade length diversity (continuous variable, standard deviation)
+    - number of owners diversity (continuous variable, standard deviation)
+    - plot surface diversity (continuous variable, standard deviation)
+    - residential floor area ratio diversity (continuous variable, standard deviation)
 
 ### Required installation:
 - Python environment with the libraries:
